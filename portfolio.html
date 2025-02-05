@@ -14,40 +14,46 @@
 </head>
 
 <body style="background-color: #1C2321;">
-  <nav class="navbar navbar-expand-lg navbar-light">
-    <div class="container-fluid d-flex justify-content-evenly">
-      <div>
-        <a class="navbar-brand" href="#" style="color: white;"><span style="color:gold;">S</span>atyanarayana</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      </div>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav w-100">
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" style="color: white;" href="#home">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#about" style="color: white;">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#skills" style="color: white;">Skills</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#project" style="color: white;">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#" style="color: white;">Certificate</a>
-          </li>
-        </ul>
-      </div>
-      <div class="link1">
-        <a class="nav-link1" href="#" style="color: white;">Portofolio</a>
-      </div>
-    </div>
+  <!-- Navbar -->
+  <div class="container">
+    <div class="col-lg-12">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#" style="color: white;">
+            <span style="color: gold;">S</span>atyanarayana
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="background-color:#54ccff;">
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-  </nav>
+          <div class="collapse navbar-collapse text-center" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#home" style="color: white;">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about" style="color: white;">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skills" style="color: white;">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#project" style="color: white;">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" style="color: white;">Certificate</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" style="color: white;">Portfolio</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+
 
   <!-- Home page -->
   <section id="home" class="home-section">
@@ -64,7 +70,7 @@
         </div>
         <div class="col-lg-6 pt-4 pt-lg-0">
           <div class="home-img text-center">
-            <img src="assets/profile.PNG" alt="">
+            <img src="assets/profie.PNG" alt="">
           </div>
         </div>
       </div>
@@ -211,43 +217,160 @@
   <!-- Certifications -->
   <section id="certifications" class="certificate-section">
     <div class="container text-center">
-      <h1 class="mb-5">Certifications</h1>
-      <div id="certificateCarousel" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="assets/NetworkingBasicsUpdate20250204-27-y7rcl3_page-0001.jpg" class="d-block w-100" alt="Certificate 1">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Certification Name</h5>
-              <p>Short description of the certification.</p>
+      <h1 class="mb-5" style="color: #54ccff;">Certifications</h1>
+      <div class="d-flex justify-content-center">
+        <div id="certificateCarousel" class="carousel slide w-50" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="assets/NetworkingBasicsUpdate20250204-27-y7rcl3_page-0001.jpg" class="d-block mx-auto w-75"
+                alt="Certificate 1">
+              <div class="text-center mt-3">
+                <h5>Networking Basics</h5>
+                <p>Fundamentals of computer networking.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="assets/Linux Fundamentals_page-0001.jpg" class="d-block mx-auto w-75" alt="Certificate 2">
+              <div class="text-center mt-3">
+                <h5>Linux Fundamentals</h5>
+                <p>Essential concepts of Linux OS.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="assets/IBMDesign20250204-27-blok1w_page-0001.jpg" class="d-block mx-auto w-75"
+                alt="Certificate 3">
+              <div class="text-center mt-3">
+                <h5>IBM Design Thinking</h5>
+                <p>Human-centered design approach.</p>
+              </div>
             </div>
           </div>
-          <div class="carousel-item">
-            <img src="assets/Linux Fundamentals_page-0001.jpg" class="d-block w-100" alt="Certificate 2">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Certification Name</h5>
-              <p>Short description of the certification.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="assets/IBMDesign20250204-27-blok1w_page-0001.jpg" class="d-block w-100" alt="Certificate 3">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Certification Name</h5>
-              <p>Short description of the certification.</p>
-            </div>
-          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#certificateCarousel"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#certificateCarousel"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#certificateCarousel" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#certificateCarousel" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
       </div>
     </div>
-
   </section>
+
+  <!-- Contact form -->
+  <section class="container">
+    <div class="row align-items-center">
+      <!-- Contact Section -->
+      <div class="col-lg-6 col-md-12">
+        <section id="contact" class="contact-section">
+          <div class="contact-box">
+            <h2 class="text-center">Get in Touch</h2>
+            <p class="text-center">Feel free to reach out for collaborations or just a friendly chat.</p>
+  
+            <form>
+              <div class="form-group">
+                <input type="text" id="name" required>
+                <label for="name">Full Name</label>
+              </div>
+              <div class="form-group">
+                <input type="email" id="email" required>
+                <label for="email">Email Address</label>
+              </div>
+              <div class="form-group">
+                <input type="text" id="subject" required>
+                <label for="subject">Subject</label>
+              </div>
+              <div class="form-group">
+                <textarea id="message" required></textarea>
+                <label for="message">Your Message</label>
+              </div>
+  
+              <button type="submit" class="btn-submit">Send Message</button>
+            </form>
+          </div>
+        </section>
+      </div>
+  
+      <!-- Timeline Section -->
+      <div class="col-lg-6 col-md-12">
+        <section id="timeline" class="timeline-section">
+          <h2 class="text-center">My Journey</h2>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <h4>2022 - Started AI & ML</h4>
+                <p>Began my journey in AI & ML at GIET College.</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <h4>2023 - First Major Project</h4>
+                <p>Developed a Yoga website with **HTML & CSS**.</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <h4>2024 - Flipkart & YouTube Clones</h4>
+                <p>Built clones of Flipkart & YouTube for UI/UX practice.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </section>
+  
+  
+  
+  <!-- Footer -->
+  <footer>
+    <footer class="footer mt-5 py-4">
+      <div class="container text-center">
+        <div class="row">
+          <!-- Branding -->
+          <div class="col-lg-4 mb-3">
+            <h3 style="color: white;">
+              <span style="color: gold;">S</span>atyanarayana
+            </h3>
+            <p style="color: #ccc;">Java Full Stack Developer & UI/UX Designer</p>
+          </div>
+
+          <!-- Quick Links -->
+          <div class="col-lg-4 mb-3">
+            <h5 style="color: white;">Quick Links</h5>
+            <ul class="list-unstyled">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#project">Projects</a></li>
+              <li><a href="#certifications">Certificates</a></li>
+            </ul>
+          </div>
+
+          <!-- Social Media -->
+          <div class="col-lg-4 mb-3">
+            <h5 style="color: white;">Follow Me</h5>
+            <a href="https://github.com/Satyanarayana-vasamsetti" class="social-icon"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/satya-narayana-vasamsetti-0b161b2a0/" class="social-icon"><i class="fab fa-linkedin"></i></a>
+            <a href="https://x.com/SatyaBunny143?t=SJP-z8nEHP7BzuedkIDD0g&s=08" class="social-icon"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/bunny__.22?igsh=MXN1NWVrNmR5dDBoOA==" class="social-icon"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+
+        <hr style="border-color: #555;">
+
+        <!-- Copyright -->
+        <p class="mt-3" style="color: #ccc;">&copy; 2025 Satyanarayana | All Rights Reserved.</p>
+      </div>
+    </footer>
+
+  </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
     crossorigin="anonymous"></script>
