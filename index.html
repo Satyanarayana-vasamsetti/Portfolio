@@ -16,45 +16,42 @@
 <body style="background-color: #1C2321;">
   <!-- Navbar -->
   <div class="container">
-    <div class="col-lg-12">
-      <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#" style="color: white;">
-            <span style="color: gold;">S</span>atyanarayana
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="background-color:#54ccff;">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <div class="collapse navbar-collapse text-center" id="navbarNav">
-            <ul class="navbar-nav mx-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="#home" style="color: white;">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#about" style="color: white;">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#skills" style="color: white;">Skills</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#project" style="color: white;">Projects</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#" style="color: white;">Certificate</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#" style="color: white;">Portfolio</a>
-              </li>
-            </ul>
-          </div>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#" style="color: white;">
+          <span style="color: gold;">S</span>atyanarayana
+        </a>
+  
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="background-color:#54ccff;">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <!-- Added 'ms-auto' to push links to the right -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">  <!-- This pushes links to the right -->
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#project">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#certifications">Certificate</a>
+            </li>
+          </ul>
         </div>
-      </nav>
-    </div>
+      </div>
+    </nav>
   </div>
-
-
+  
+  
   <!-- Home page -->
   <section id="home" class="home-section">
     <div class="container">
@@ -65,7 +62,7 @@
             <h1>I'm a Developer</h1>
             <p>I design and build digital experiences that are intuitive, functional, and visually appealing. Let's
               create something amazing together!</p>
-              <a href="assets/resumee.pdf.pdf" download="Satyanarayana_Resume.pdf" class="btnn">Resume</a>
+              <a href="assets/Bunny resume.png" download="Satyanarayana_Resume.pdf" class="btnn">Resume</a>
 
           </div>
         </div>
@@ -150,70 +147,71 @@
     <div class="container text-center">
       <h1 class="mb-5" style="color: #54ccff;">My Projects</h1>
       <div class="row g-4">
+        
         <div class="col-md-4">
-          <div class="card">
-            <img src="assets/project1.png" class="card-img-top" alt="Project 1">
+          <div class="card project-card p-3">
             <div class="card-body">
               <h5 class="card-title">Soul Stretch</h5>
-              <p class="card-text">Built 'SoulStretch' Yoga Website with online classes</p>
+              <p class="card-text">A Yoga website offering online classes, schedules, and user-friendly booking system. Developed using Angular, Spring Boot, and MySQL.</p>
               <a href="https://github.com/Satyanarayana-vasamsetti/mini-project-angular" class="btn btn-primary">View Project</a>
             </div>
           </div>
         </div>
+  
         <div class="col-md-4">
-          <div class="card">
-            <img src="assets/projecct2.png" class="card-img-top" alt="Project 2">
+          <div class="card project-card p-3">
             <div class="card-body">
               <h5 class="card-title">Dashboard</h5>
-              <p class="card-text">Built a dashboard with full CRUD operations.</p>
+              <p class="card-text">A dynamic dashboard with full CRUD operations, role-based access, and interactive charts. Built using Angular, Bootstrap, and Spring Boot.</p>
               <a href="https://github.com/Satyanarayana-vasamsetti/userdashboard" class="btn btn-primary">View Project</a>
             </div>
           </div>
         </div>
+  
         <div class="col-md-4">
-          <div class="card">
-            <img src="assets/project3.png" class="card-img-top" alt="Project 3">
+          <div class="card project-card p-3">
             <div class="card-body">
               <h5 class="card-title">Netflix Clone</h5>
-              <p class="card-text">Built a Netflix clone with  movie collection.</p>
+              <p class="card-text">A responsive Netflix UI clone with dynamic movie collections, API integration, and search functionality. Built using React and Firebase.</p>
               <a href="https://67a4731b2868a3dfa7a1cd4b--polite-dasik-be8b52.netlify.app/" class="btn btn-primary">View Project</a>
             </div>
           </div>
         </div>
+  
         <div class="col-md-4">
-          <div class="card">
-            <img src="assets/project4.png" class="card-img-top" alt="Project 4">
+          <div class="card project-card p-3">
             <div class="card-body">
               <h5 class="card-title">Food Restaurant</h5>
-              <p class="card-text">Built a Food Restaurant website with ordering.</p>
+              <p class="card-text">An online food ordering platform with menu display, cart functionality, and checkout process. Developed using HTML, CSS, JavaScript, and PHP.</p>
               <a href="https://github.com/Satyanarayana-vasamsetti/Food-Rrestaurant" class="btn btn-primary">View Project</a>
             </div>
           </div>
         </div>
+  
         <div class="col-md-4">
-          <div class="card">
-            <img src="assets/project5.png" class="card-img-top" alt="Project 5">
+          <div class="card project-card p-3">
             <div class="card-body">
               <h5 class="card-title">Flipkart Clone</h5>
-              <p class="card-text">Built a Flipkart clone with UI design.</p>
+              <p class="card-text">An e-commerce UI design inspired by Flipkart, featuring category browsing, product listing, and shopping cart integration.</p>
               <a href="https://67a4728147f8ce3010dac3b9--preeminent-cobbler-c09640.netlify.app/" class="btn btn-primary">View Project</a>
             </div>
           </div>
         </div>
+  
         <div class="col-md-4">
-          <div class="card">
-            <img src="assets/project6.png" class="card-img-top" alt="Project 6">
+          <div class="card project-card p-3">
             <div class="card-body">
-              <h5 class="card-title">Youtube Clone</h5>
-              <p class="card-text">Built a YouTube clone with video listings</p>
+              <h5 class="card-title">YouTube Clone</h5>
+              <p class="card-text">A YouTube clone with video listings, search functionality, and user authentication. Built using React and Firebase.</p>
               <a href="https://clone-e93b6.web.app/" class="btn btn-primary">View Project</a>
             </div>
           </div>
         </div>
+  
       </div>
     </div>
-
   </section>
+
 
   <!-- Certifications -->
   <section id="certifications" class="certificate-section">
