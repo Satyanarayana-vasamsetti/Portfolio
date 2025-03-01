@@ -15,11 +15,16 @@
 .navbar-nav{
    display: flex;
    justify-content:center;
-   column-gap: 3rem;
+   column-gap: 2rem;
 }
 .nav-link{
-  color: black;
+  
   font-weight: bold;
+  color: whitesmoke !important;
+  transition: color 0.3s ease-in-out;
+}
+.nav-link:hover {
+  color: #54ccff;
 }
 .nav-link1{
   background-color:#54ccff;
@@ -120,14 +125,22 @@
 .project-section{
   padding: 50px 0px 50px 0px;
 }
+.project-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
 .card-title{
-  color: black;
+  color: white;
 }
 .card-text{
-  color: black;
+  color: white;
 }
 .card{
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.1) !important;
   padding: 10px;
   border-radius: 8px;
 }
